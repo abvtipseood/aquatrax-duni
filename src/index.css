@@ -1,1 +1,25 @@
 @import "tailwindcss";
+
+@layer utilities {
+  @keyframes glint {
+    0% { background-position: 200% 0; }
+    15% { background-position: -200% 0; }
+    100% { background-position: -200% 0; }
+  }
+
+  .animate-glint {
+    background: linear-gradient(
+      90deg,
+      #ffffff 0%,
+      #ffffff 45%,
+      #22d3ee 50%,
+      #ffffff 55%,
+      #ffffff 100%
+    );
+    background-size: 250% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: glint 6s linear infinite;
+  }
+}

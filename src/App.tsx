@@ -231,7 +231,7 @@ const translations = {
       location: 'Дюни, Созополь',
       title1: 'ПОВЕЛИТЕЛИ',
       title2: 'ВОЛН',
-      subtitle1: 'Премиальные гидроциклы и эксклюзивные водные автомобили в аренду в спокойных водах курортного поселка ',
+      subtitle1: 'Премиальные гидроциклы и эксклюзивные водни машины под наем в спокойных водах курортного поселка ',
       subtitleBold: 'Дюни',
       subtitle2: '.',
       explore: 'Смотреть флот',
@@ -244,17 +244,23 @@ const translations = {
       gtx: {
         badge: 'РОСКОШЬ И МОЩЬ',
         desc: 'Бескомпромиссная роскошь и впечатляющая мощность. Создан для абсолютной стабильности и комфорта даже на высоких скоростях. Идеально подходит для тех, кто хочет рассекать волны стильно и уверенно.',
-        specs: { hp: '300 л.с.', capacity: '3 места', audio: 'Bluetooth Аудио' }
+        f1: '300 л.с.',
+        f2: '3 места',
+        f3: 'Bluetooth Аудио'
       },
-      spark: {
+      yamaha: {
         badge: 'ЛЕГКОСТЬ И ФАН',
         desc: 'Самый игривый и легкий гидроцикл в нашем флоте. Невероятно маневренный, идеально подходит для трюков и динамичного катания. Гарантированные улыбки и адреналин.',
-        specs: { hp: '90 л.с.', capacity: '2 места', weight: 'Легкий вес' }
+        f1: '90 л.с.',
+        f2: '2 места',
+        f3: 'Легкий вес'
       },
       jetcar: {
         badge: 'ЭКСКЛЮЗИВ',
         desc: 'Почувствуй себя за рулем суперкара, но на воде! Уникальное сочетание дизайна спортивного автомобиля и адреналина гидроцикла. Будь в центре внимания.',
-        specs: { hp: '130 л.с.', capacity: '2 места', design: 'Спорткар' }
+        f1: '130 л.с.',
+        f2: '2 места',
+        f3: 'Спорткар'
       }
     },
     inflatables: {
@@ -262,18 +268,27 @@ const translations = {
       subtitle: 'Поделитесь адреналином с друзьями! Выберите один из наших экстремальных надувных аттракционов для незабываемых эмоций на воде.',
       lounge: {
         badge: 'РЕЛАКС И ФАН',
+        name: 'Lounge Twister',
         desc: 'Идеальный баланс между комфортом и скоростью. Наслаждайтесь поездкой сидя, пока катер тянет вас по волнам.',
-        specs: { capacity: 'До 4 человек', style: 'Сидя', speed: 'Умеренная' }
+        f1: 'До 4 человек',
+        f2: 'Сидя',
+        f3: 'Умеренная'
       },
       slider: {
         badge: 'ЭКСТРИМ',
+        name: 'Slider',
         desc: 'Держитесь крепче! Лежа на животе, вы почувствуете каждую волну и максимальную скорость прямо над водой.',
-        specs: { capacity: 'До 3 человек', style: 'Лежа', speed: 'Высокая' }
+        f1: 'До 3 человек',
+        f2: 'Лежа',
+        f3: 'Высокая'
       },
       aqua: {
         badge: 'АДРЕНАЛИН',
+        name: 'Aqua Twister',
         desc: 'Самый динамичный аттракцион! Вращения, прыжки и много брызг. Только для любителей сильных ощущений.',
-        specs: { capacity: 'До 6 человек', style: 'Круг', speed: 'Экстремальная' }
+        f1: 'До 6 человек',
+        f2: 'Круг',
+        f3: 'Экстремальная'
       }
     },
     location: {
@@ -282,7 +297,7 @@ const translations = {
       desc: 'Расположенный в закрытом заливе курортного поселка Дюни, наш центр предлагает идеальные условия для катания на гидроциклах.',
       bayTitle: 'Спокойный залив',
       bayDesc: 'Защищенный от больших волн и сильных ветров, залив предоставляет гладкую воду, идеальную как для новичков, так и для опытных райдеров.',
-      briefTitle: 'Профессиональный инструктаж',
+      briefTitle: 'Професиональный инструктаж',
       briefDesc: 'Безопасность - наш главный приоритет. Каждое катание начинается с подробного инструктажа от опытного профессионала. Мы предоставляем высококачественные спасательные жилеты для каждого клиента.',
       quote: '"Лучшее место для катания на гидроциклах на южном побережье Черного моря. Спокойная вода и отличное обслуживание!"'
     },
@@ -301,7 +316,7 @@ const translations = {
       title: 'ПАКЕТЫ И ЦЕНЫ',
       subtitle: 'Выбери продолжительность своего приключения.',
       min10: '10 Минут',
-      desc10: 'Быстрый старт и солидная доза адреналина. Идеально для первого знакомства с машиной и короткой прогулки по заливу.',
+      desc10: 'Быстрый старт и солидная доза адреналина. Идеално для первого знакомства с машиной и короткой прогулки по заливу.',
       min15: '15 Минут',
       desc15: 'Оптимальное время, чтобы привыкнуть к управлению, протестировать возможности гидроцикла и по-настоящему насладиться скоростью.',
       min30: '30 Минут',
@@ -340,17 +355,23 @@ const translations = {
       gtx: {
         badge: 'LUX ȘI PUTERE',
         desc: 'Lux fără compromisuri și putere impresionantă. Construit pentru stabilitate și confort absolut chiar și la viteze mari. Perfect pentru cei care doresc să taie valurile cu stil și încredere.',
-        specs: { hp: '300 CP', capacity: '3 locuri', audio: 'Audio Bluetooth' }
+        f1: '300 CP',
+        f2: '3 locuri',
+        f3: 'Audio Bluetooth'
       },
-      spark: {
+      yamaha: {
         badge: 'UȘOR ȘI DISTRACTIV',
         desc: 'Cel mai jucăuș și ușor jet ski din flota noastră. Incredibil de manevrabil, ideal pentru trucuri și o plimbare dinamică. Zâmbete și adrenalină garantate.',
-        specs: { hp: '90 CP', capacity: '2 locuri', weight: 'Greutate redusă' }
+        f1: '90 CP',
+        f2: '2 locuri',
+        f3: 'Greutate redusă'
       },
       jetcar: {
         badge: 'EXCLUSIV',
         desc: 'Simte-te ca la volanul unui supercar, dar pe apă! O combinație unică între designul unei mașini sport și adrenalina unui jet ski. Fii în centrul atenției.',
-        specs: { hp: '130 CP', capacity: '2 locuri', design: 'Mașină sport' }
+        f1: '130 CP',
+        f2: '2 locuri',
+        f3: 'Mașină sport'
       }
     },
     inflatables: {
@@ -358,18 +379,27 @@ const translations = {
       subtitle: 'Împărtășește adrenalina cu prietenii tăi! Alege una dintre atracțiile noastre gonflabile extreme pentru emoții de neuitat pe apă.',
       lounge: {
         badge: 'RELAXARE ȘI DISTRACȚIE',
+        name: 'Lounge Twister',
         desc: 'Echilibrul perfect între confort și viteză. Bucură-te de plimbare stând jos în timp ce barca te trage peste valuri.',
-        specs: { capacity: 'Până la 4 persoane', style: 'Așezat', speed: 'Moderată' }
+        f1: 'Până la 4 persoane',
+        f2: 'Așezat',
+        f3: 'Moderată'
       },
       slider: {
         badge: 'EXTREM',
+        name: 'Slider',
         desc: 'Ține-te bine! Întins pe burtă, vei simți fiecare val și viteza maximă chiar deasupra apei.',
-        specs: { capacity: 'Până la 3 persoane', style: 'Întins', speed: 'Mare' }
+        f1: 'Până la 3 persoane',
+        f2: 'Întins',
+        f3: 'Mare'
       },
       aqua: {
         badge: 'ADRENALINĂ',
+        name: 'Aqua Twister',
         desc: 'Cea mai dinamică atracție! Rotiri, sărituri și multe stropi. Doar pentru iubitorii de senzații tari.',
-        specs: { capacity: 'Până la 6 persoane', style: 'Cerc', speed: 'Extremă' }
+        f1: 'Până la 6 persoane',
+        f2: 'Cerc',
+        f3: 'Extremă'
       }
     },
     location: {
@@ -456,11 +486,23 @@ export default function App() {
       {/* Navigation */}
       <nav className={`fixed w-full z-50 top-0 transition-all duration-300 ${isScrolled ? 'bg-slate-950/90 backdrop-blur-md border-b border-white/10 py-4' : 'bg-transparent py-6'}`}>
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
-          <a href="#" className="flex items-center gap-2 z-50">
-            <Waves className="w-8 h-8 text-cyan-400" />
-            <span className="text-2xl font-bold tracking-wider uppercase">Aquatrax Sports</span>
+          <a href="#" className="flex items-center gap-3 z-50 group/logo">
+            <div
+              className="w-10 h-10 bg-cyan-400 group-hover:scale-110 transition-transform duration-300"
+              style={{
+                maskImage: 'url(/images/logo.png)',
+                WebkitMaskImage: 'url(/images/logo.png)',
+                maskSize: 'contain',
+                WebkitMaskSize: 'contain',
+                maskRepeat: 'no-repeat',
+                WebkitMaskRepeat: 'no-repeat',
+                maskPosition: 'center',
+                WebkitMaskPosition: 'center'
+              }}
+            ></div>
+            <span className="text-2xl font-bold tracking-wider uppercase whitespace-nowrap animate-glint">Aquatrax Sports</span>
           </a>
-          
+
           {/* Desktop Nav */}
           <div className="hidden md:flex items-center gap-8 text-sm font-medium tracking-wide text-slate-300">
             {navLinks.map((link) => (
@@ -468,7 +510,7 @@ export default function App() {
                 {link.name}
               </a>
             ))}
-            
+
             {/* Language Switcher */}
             <div className="relative group">
               <button className="flex items-center gap-1.5 text-sm font-medium text-slate-300 hover:text-white transition-colors py-2">
@@ -498,7 +540,7 @@ export default function App() {
 
           {/* Mobile Menu Toggle & Lang */}
           <div className="flex items-center gap-4 md:hidden z-50">
-            <button 
+            <button
               onClick={() => {
                 const nextLang = { bg: 'en', en: 'ru', ru: 'ro', ro: 'bg' }[lang] as 'bg' | 'en' | 'ru' | 'ro';
                 setLang(nextLang);
@@ -507,7 +549,7 @@ export default function App() {
             >
               {lang}
             </button>
-            <button 
+            <button
               className="text-white p-2"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             >
@@ -519,17 +561,17 @@ export default function App() {
         {/* Mobile Nav Overlay */}
         <div className={`fixed inset-0 bg-slate-950/95 backdrop-blur-xl z-40 transition-transform duration-300 ease-in-out flex flex-col items-center justify-center gap-8 ${mobileMenuOpen ? 'translate-x-0' : 'translate-x-full'} md:hidden`}>
           {navLinks.map((link) => (
-            <a 
-              key={link.name} 
-              href={link.href} 
+            <a
+              key={link.name}
+              href={link.href}
               onClick={() => setMobileMenuOpen(false)}
               className="text-2xl font-bold tracking-widest hover:text-cyan-400 transition-colors"
             >
               {link.name}
             </a>
           ))}
-          <a 
-            href="#contact" 
+          <a
+            href="#contact"
             onClick={() => setMobileMenuOpen(false)}
             className="mt-4 px-8 py-4 bg-cyan-500 text-slate-950 hover:bg-cyan-400 transition-colors rounded-full font-bold text-lg shadow-lg shadow-cyan-500/20"
           >
@@ -541,16 +583,14 @@ export default function App() {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center">
         <div className="absolute inset-0 z-0 overflow-hidden">
-          {/* Hero Background Image Placeholder */}
-          <img 
-            src="https://images.unsplash.com/photo-1518260201659-3220556557e4?q=80&w=2070&auto=format&fit=crop" 
-            alt="Jet ski in the ocean" 
-            className="w-full h-full object-cover opacity-40"
-            referrerPolicy="no-referrer"
+          <img
+            src="/images/hero-bg.png"
+            alt="Hero Background"
+            className="w-full h-full object-cover opacity-60"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-slate-950/60 via-slate-950/30 to-slate-950"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-slate-950/80 via-slate-950/40 to-slate-950"></div>
         </div>
-        
+
         <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
           <div className="inline-block mb-4 px-4 py-1.5 rounded-full border border-cyan-500/30 bg-cyan-500/10 text-cyan-400 text-sm font-bold tracking-widest uppercase backdrop-blur-sm">
             {t.hero.location}
@@ -571,9 +611,9 @@ export default function App() {
             </a>
           </div>
         </div>
-        
+
         {/* Scroll indicator */}
-        <div className="absolute -bottom-12 left-1/2 -translate-x-1/2 animate-bounce flex flex-col items-center gap-2 text-slate-400 z-20">
+        <div className="absolute bottom-8 left-0 right-0 mx-auto w-fit animate-bounce flex flex-col items-center gap-2 text-slate-400 z-20">
           <span className="text-xs font-bold tracking-widest uppercase">{t.hero.scroll}</span>
           <div className="w-0.5 h-8 bg-gradient-to-b from-cyan-500 to-transparent rounded-full"></div>
         </div>
@@ -590,109 +630,109 @@ export default function App() {
         </div>
 
         <div className="relative group">
-          <div 
+          <div
             ref={fleetScrollRef}
             className="flex md:grid md:grid-cols-3 gap-6 md:gap-8 overflow-x-auto snap-x snap-mandatory scroll-smooth pb-4 md:pb-0 px-4 md:px-0 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden"
           >
             {/* Product 1: Sea-Doo GTX */}
             <div className="w-[75vw] md:w-auto min-w-[280px] md:min-w-0 snap-center shrink-0 group bg-slate-900/50 border border-white/5 rounded-[2rem] overflow-hidden hover:border-cyan-500/30 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:shadow-cyan-500/10 flex flex-col">
-            <div className="aspect-square md:aspect-[4/3] overflow-hidden relative bg-slate-800 flex items-center justify-center">
-              {/* IMAGE 1: Sea-Doo GTX */}
-              <img 
-                src="https://i.ibb.co/5xxcKFt9/viber-2026-02-27-18-25-58-975.jpg" 
-                alt="Sea-Doo GTX" 
-                className="w-full h-full object-cover absolute inset-0 group-hover:scale-105 transition-transform duration-700" 
-                referrerPolicy="no-referrer"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-50"></div>
-              <div className="absolute top-6 right-6 bg-slate-950/80 backdrop-blur-md px-4 py-1.5 rounded-full text-xs font-bold text-cyan-400 border border-cyan-500/20 tracking-wider">
-                {t.fleet.gtx.badge}
+              <div className="aspect-square md:aspect-[4/3] overflow-hidden relative bg-slate-800 flex items-center justify-center">
+                {/* IMAGE 1: Sea-Doo GTX */}
+                <img
+                  src="https://i.ibb.co/5xxcKFt9/viber-2026-02-27-18-25-58-975.jpg"
+                  alt="Sea-Doo GTX"
+                  className="w-full h-full object-cover absolute inset-0 group-hover:scale-105 transition-transform duration-700"
+                  referrerPolicy="no-referrer"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-50"></div>
+                <div className="absolute top-6 right-6 bg-slate-950/80 backdrop-blur-md px-4 py-1.5 rounded-full text-xs font-bold text-cyan-400 border border-cyan-500/20 tracking-wider">
+                  {t.fleet.gtx.badge}
+                </div>
+              </div>
+              <div className="p-6 md:p-8 flex-grow flex flex-col">
+                <h3 className="text-xl md:text-2xl font-bold mb-2 md:mb-3">Sea-Doo GTX</h3>
+                <p className="text-slate-400 text-sm leading-relaxed mb-6 md:mb-8 flex-grow">
+                  {t.fleet.gtx.desc}
+                </p>
+                <ul className="space-y-2 md:space-y-3 text-xs md:text-sm text-slate-300 font-medium bg-slate-950/50 p-4 md:p-5 rounded-2xl border border-white/5">
+                  <li className="flex items-center gap-3"><div className="w-2 h-2 rounded-full bg-cyan-500 shadow-[0_0_8px_rgba(6,182,212,0.8)]"></div> {t.fleet.gtx.f1}</li>
+                  <li className="flex items-center gap-3"><div className="w-2 h-2 rounded-full bg-cyan-500 shadow-[0_0_8px_rgba(6,182,212,0.8)]"></div> {t.fleet.gtx.f2}</li>
+                  <li className="flex items-center gap-3"><div className="w-2 h-2 rounded-full bg-cyan-500 shadow-[0_0_8px_rgba(6,182,212,0.8)]"></div> {t.fleet.gtx.f3}</li>
+                </ul>
               </div>
             </div>
-            <div className="p-6 md:p-8 flex-grow flex flex-col">
-              <h3 className="text-xl md:text-2xl font-bold mb-2 md:mb-3">Sea-Doo GTX</h3>
-              <p className="text-slate-400 text-sm leading-relaxed mb-6 md:mb-8 flex-grow">
-                {t.fleet.gtx.desc}
-              </p>
-              <ul className="space-y-2 md:space-y-3 text-xs md:text-sm text-slate-300 font-medium bg-slate-950/50 p-4 md:p-5 rounded-2xl border border-white/5">
-                <li className="flex items-center gap-3"><div className="w-2 h-2 rounded-full bg-cyan-500 shadow-[0_0_8px_rgba(6,182,212,0.8)]"></div> {t.fleet.gtx.f1}</li>
-                <li className="flex items-center gap-3"><div className="w-2 h-2 rounded-full bg-cyan-500 shadow-[0_0_8px_rgba(6,182,212,0.8)]"></div> {t.fleet.gtx.f2}</li>
-                <li className="flex items-center gap-3"><div className="w-2 h-2 rounded-full bg-cyan-500 shadow-[0_0_8px_rgba(6,182,212,0.8)]"></div> {t.fleet.gtx.f3}</li>
-              </ul>
-            </div>
-          </div>
 
             {/* Product 2: Sea-Doo Spark Trixx */}
             <div className="w-[75vw] md:w-auto min-w-[280px] md:min-w-0 snap-center shrink-0 group bg-slate-900/50 border border-white/5 rounded-[2rem] overflow-hidden hover:border-orange-500/30 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:shadow-orange-500/10 flex flex-col">
-            <div className="aspect-square md:aspect-[4/3] overflow-hidden relative bg-slate-800 flex items-center justify-center">
-              {/* IMAGE 2: Yamaha FX Cruiser */}
-              <img 
-                src="https://i.ibb.co/YFv31rLs/viber-2026-02-27-18-25-59-290.jpg" 
-                alt="Yamaha FX Cruiser" 
-                className="w-full h-full object-cover absolute inset-0 group-hover:scale-105 transition-transform duration-700" 
-                referrerPolicy="no-referrer"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-50"></div>
-              <div className="absolute top-6 right-6 bg-slate-950/80 backdrop-blur-md px-4 py-1.5 rounded-full text-xs font-bold text-orange-400 border border-orange-500/20 tracking-wider">
-                {t.fleet.yamaha.badge}
+              <div className="aspect-square md:aspect-[4/3] overflow-hidden relative bg-slate-800 flex items-center justify-center">
+                {/* IMAGE 2: Yamaha FX Cruiser */}
+                <img
+                  src="https://i.ibb.co/YFv31rLs/viber-2026-02-27-18-25-59-290.jpg"
+                  alt="Yamaha FX Cruiser"
+                  className="w-full h-full object-cover absolute inset-0 group-hover:scale-105 transition-transform duration-700"
+                  referrerPolicy="no-referrer"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-50"></div>
+                <div className="absolute top-6 right-6 bg-slate-950/80 backdrop-blur-md px-4 py-1.5 rounded-full text-xs font-bold text-orange-400 border border-orange-500/20 tracking-wider">
+                  {t.fleet.yamaha.badge}
+                </div>
+              </div>
+              <div className="p-6 md:p-8 flex-grow flex flex-col">
+                <h3 className="text-xl md:text-2xl font-bold mb-2 md:mb-3">Yamaha FX Cruiser</h3>
+                <p className="text-slate-400 text-sm leading-relaxed mb-6 md:mb-8 flex-grow">
+                  {t.fleet.yamaha.desc}
+                </p>
+                <ul className="space-y-2 md:space-y-3 text-xs md:text-sm text-slate-300 font-medium bg-slate-950/50 p-4 md:p-5 rounded-2xl border border-white/5">
+                  <li className="flex items-center gap-3"><div className="w-2 h-2 rounded-full bg-orange-500 shadow-[0_0_8px_rgba(249,115,22,0.8)]"></div> {t.fleet.yamaha.f1}</li>
+                  <li className="flex items-center gap-3"><div className="w-2 h-2 rounded-full bg-orange-500 shadow-[0_0_8px_rgba(249,115,22,0.8)]"></div> {t.fleet.yamaha.f2}</li>
+                  <li className="flex items-center gap-3"><div className="w-2 h-2 rounded-full bg-orange-500 shadow-[0_0_8px_rgba(249,115,22,0.8)]"></div> {t.fleet.yamaha.f3}</li>
+                </ul>
               </div>
             </div>
-            <div className="p-6 md:p-8 flex-grow flex flex-col">
-              <h3 className="text-xl md:text-2xl font-bold mb-2 md:mb-3">Yamaha FX Cruiser</h3>
-              <p className="text-slate-400 text-sm leading-relaxed mb-6 md:mb-8 flex-grow">
-                {t.fleet.yamaha.desc}
-              </p>
-              <ul className="space-y-2 md:space-y-3 text-xs md:text-sm text-slate-300 font-medium bg-slate-950/50 p-4 md:p-5 rounded-2xl border border-white/5">
-                <li className="flex items-center gap-3"><div className="w-2 h-2 rounded-full bg-orange-500 shadow-[0_0_8px_rgba(249,115,22,0.8)]"></div> {t.fleet.yamaha.f1}</li>
-                <li className="flex items-center gap-3"><div className="w-2 h-2 rounded-full bg-orange-500 shadow-[0_0_8px_rgba(249,115,22,0.8)]"></div> {t.fleet.yamaha.f2}</li>
-                <li className="flex items-center gap-3"><div className="w-2 h-2 rounded-full bg-orange-500 shadow-[0_0_8px_rgba(249,115,22,0.8)]"></div> {t.fleet.yamaha.f3}</li>
-              </ul>
-            </div>
-          </div>
 
             {/* Product 3: Jet Car */}
             <div className="w-[75vw] md:w-auto min-w-[280px] md:min-w-0 snap-center shrink-0 group bg-slate-900/50 border border-white/5 rounded-[2rem] overflow-hidden hover:border-yellow-500/30 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:shadow-yellow-500/10 flex flex-col">
-            <div className="aspect-square md:aspect-[4/3] overflow-hidden relative bg-slate-800 flex items-center justify-center">
-              {/* IMAGE 3: Jet Car */}
-              <img 
-                src="https://i.ibb.co/WWnB4bC4/viber-2026-02-27-18-28-50-861.jpg" 
-                alt="Jet Car" 
-                className="w-full h-full object-cover absolute inset-0 group-hover:scale-105 transition-transform duration-700" 
-                referrerPolicy="no-referrer"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-50"></div>
-              <div className="absolute top-6 right-6 bg-slate-950/80 backdrop-blur-md px-4 py-1.5 rounded-full text-xs font-bold text-yellow-400 border border-yellow-500/20 tracking-wider">
-                {t.fleet.jetcar.badge}
+              <div className="aspect-square md:aspect-[4/3] overflow-hidden relative bg-slate-800 flex items-center justify-center">
+                {/* IMAGE 3: Jet Car */}
+                <img
+                  src="https://i.ibb.co/WWnB4bC4/viber-2026-02-27-18-28-50-861.jpg"
+                  alt="Jet Car"
+                  className="w-full h-full object-cover absolute inset-0 group-hover:scale-105 transition-transform duration-700"
+                  referrerPolicy="no-referrer"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-50"></div>
+                <div className="absolute top-6 right-6 bg-slate-950/80 backdrop-blur-md px-4 py-1.5 rounded-full text-xs font-bold text-yellow-400 border border-yellow-500/20 tracking-wider">
+                  {t.fleet.jetcar.badge}
+                </div>
+              </div>
+              <div className="p-6 md:p-8 flex-grow flex flex-col">
+                <h3 className="text-xl md:text-2xl font-bold mb-2 md:mb-3">Aquatrax Jet Car</h3>
+                <p className="text-slate-400 text-sm leading-relaxed mb-6 md:mb-8 flex-grow">
+                  {t.fleet.jetcar.desc}
+                </p>
+                <ul className="space-y-2 md:space-y-3 text-xs md:text-sm text-slate-300 font-medium bg-slate-950/50 p-4 md:p-5 rounded-2xl border border-white/5">
+                  <li className="flex items-center gap-3"><div className="w-2 h-2 rounded-full bg-yellow-500 shadow-[0_0_8px_rgba(234,179,8,0.8)]"></div> {t.fleet.jetcar.f1}</li>
+                  <li className="flex items-center gap-3"><div className="w-2 h-2 rounded-full bg-yellow-500 shadow-[0_0_8px_rgba(234,179,8,0.8)]"></div> {t.fleet.jetcar.f2}</li>
+                  <li className="flex items-center gap-3"><div className="w-2 h-2 rounded-full bg-yellow-500 shadow-[0_0_8px_rgba(234,179,8,0.8)]"></div> {t.fleet.jetcar.f3}</li>
+                </ul>
               </div>
             </div>
-            <div className="p-6 md:p-8 flex-grow flex flex-col">
-              <h3 className="text-xl md:text-2xl font-bold mb-2 md:mb-3">Aquatrax Jet Car</h3>
-              <p className="text-slate-400 text-sm leading-relaxed mb-6 md:mb-8 flex-grow">
-                {t.fleet.jetcar.desc}
-              </p>
-              <ul className="space-y-2 md:space-y-3 text-xs md:text-sm text-slate-300 font-medium bg-slate-950/50 p-4 md:p-5 rounded-2xl border border-white/5">
-                <li className="flex items-center gap-3"><div className="w-2 h-2 rounded-full bg-yellow-500 shadow-[0_0_8px_rgba(234,179,8,0.8)]"></div> {t.fleet.jetcar.f1}</li>
-                <li className="flex items-center gap-3"><div className="w-2 h-2 rounded-full bg-yellow-500 shadow-[0_0_8px_rgba(234,179,8,0.8)]"></div> {t.fleet.jetcar.f2}</li>
-                <li className="flex items-center gap-3"><div className="w-2 h-2 rounded-full bg-yellow-500 shadow-[0_0_8px_rgba(234,179,8,0.8)]"></div> {t.fleet.jetcar.f3}</li>
-              </ul>
-            </div>
           </div>
+
+          {/* Mobile Arrows */}
+          <button
+            onClick={() => scroll(fleetScrollRef, 'left')}
+            className="absolute -left-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-slate-800/90 border border-white/10 flex items-center justify-center text-white hover:bg-slate-700 transition-colors z-10 md:hidden shadow-lg backdrop-blur-sm"
+          >
+            <ChevronLeft className="w-5 h-5" />
+          </button>
+          <button
+            onClick={() => scroll(fleetScrollRef, 'right')}
+            className="absolute -right-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-slate-800/90 border border-white/10 flex items-center justify-center text-white hover:bg-slate-700 transition-colors z-10 md:hidden shadow-lg backdrop-blur-sm"
+          >
+            <ChevronRight className="w-5 h-5" />
+          </button>
         </div>
-        
-        {/* Mobile Arrows */}
-        <button 
-          onClick={() => scroll(fleetScrollRef, 'left')}
-          className="absolute -left-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-slate-800/90 border border-white/10 flex items-center justify-center text-white hover:bg-slate-700 transition-colors z-10 md:hidden shadow-lg backdrop-blur-sm"
-        >
-          <ChevronLeft className="w-5 h-5" />
-        </button>
-        <button 
-          onClick={() => scroll(fleetScrollRef, 'right')}
-          className="absolute -right-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-slate-800/90 border border-white/10 flex items-center justify-center text-white hover:bg-slate-700 transition-colors z-10 md:hidden shadow-lg backdrop-blur-sm"
-        >
-          <ChevronRight className="w-5 h-5" />
-        </button>
-      </div>
       </section>
 
       {/* Inflatables Section */}
@@ -706,121 +746,121 @@ export default function App() {
         </div>
 
         <div className="relative group">
-          <div 
+          <div
             ref={inflatablesScrollRef}
             className="flex md:grid md:grid-cols-3 gap-6 md:gap-8 overflow-x-auto snap-x snap-mandatory scroll-smooth pb-4 md:pb-0 px-4 md:px-0 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden"
           >
             {/* Product 1: Lounge Twister */}
             <div className="w-[75vw] md:w-auto min-w-[280px] md:min-w-0 snap-center shrink-0 group bg-slate-900/50 border border-white/5 rounded-[2rem] overflow-hidden hover:border-cyan-500/30 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:shadow-cyan-500/10 flex flex-col">
-            <div className="aspect-square md:aspect-[4/3] overflow-hidden relative bg-slate-800 flex items-center justify-center">
-              <img 
-                src="https://i.ibb.co/BVgsvGDr/image00003-1.jpg" 
-                alt="Lounge Twister" 
-                className="w-full h-full object-cover absolute inset-0 group-hover:scale-105 transition-transform duration-700" 
-                referrerPolicy="no-referrer"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-50"></div>
-              <div className="absolute top-6 right-6 bg-slate-950/80 backdrop-blur-md px-4 py-1.5 rounded-full text-xs font-bold text-cyan-400 border border-cyan-500/20 tracking-wider">
-                {t.inflatables.lounge.badge}
+              <div className="aspect-square md:aspect-[4/3] overflow-hidden relative bg-slate-800 flex items-center justify-center">
+                <img
+                  src="https://i.ibb.co/BVgsvGDr/image00003-1.jpg"
+                  alt="Lounge Twister"
+                  className="w-full h-full object-cover absolute inset-0 group-hover:scale-105 transition-transform duration-700"
+                  referrerPolicy="no-referrer"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-50"></div>
+                <div className="absolute top-6 right-6 bg-slate-950/80 backdrop-blur-md px-4 py-1.5 rounded-full text-xs font-bold text-cyan-400 border border-cyan-500/20 tracking-wider">
+                  {t.inflatables.lounge.badge}
+                </div>
+              </div>
+              <div className="p-6 md:p-8 flex-grow flex flex-col">
+                <h3 className="text-xl md:text-2xl font-bold mb-2 md:mb-3">{t.inflatables.lounge.name}</h3>
+                <p className="text-slate-400 text-sm leading-relaxed mb-6 md:mb-8 flex-grow">
+                  {t.inflatables.lounge.desc}
+                </p>
+                <ul className="space-y-2 md:space-y-3 text-xs md:text-sm text-slate-300 font-medium bg-slate-950/50 p-4 md:p-5 rounded-2xl border border-white/5">
+                  <li className="flex items-center gap-3"><div className="w-2 h-2 rounded-full bg-cyan-500 shadow-[0_0_8px_rgba(6,182,212,0.8)]"></div> {t.inflatables.lounge.f1}</li>
+                  <li className="flex items-center gap-3"><div className="w-2 h-2 rounded-full bg-cyan-500 shadow-[0_0_8px_rgba(6,182,212,0.8)]"></div> {t.inflatables.lounge.f2}</li>
+                  <li className="flex items-center gap-3"><div className="w-2 h-2 rounded-full bg-cyan-500 shadow-[0_0_8px_rgba(6,182,212,0.8)]"></div> {t.inflatables.lounge.f3}</li>
+                </ul>
               </div>
             </div>
-            <div className="p-6 md:p-8 flex-grow flex flex-col">
-              <h3 className="text-xl md:text-2xl font-bold mb-2 md:mb-3">{t.inflatables.lounge.name}</h3>
-              <p className="text-slate-400 text-sm leading-relaxed mb-6 md:mb-8 flex-grow">
-                {t.inflatables.lounge.desc}
-              </p>
-              <ul className="space-y-2 md:space-y-3 text-xs md:text-sm text-slate-300 font-medium bg-slate-950/50 p-4 md:p-5 rounded-2xl border border-white/5">
-                <li className="flex items-center gap-3"><div className="w-2 h-2 rounded-full bg-cyan-500 shadow-[0_0_8px_rgba(6,182,212,0.8)]"></div> {t.inflatables.lounge.f1}</li>
-                <li className="flex items-center gap-3"><div className="w-2 h-2 rounded-full bg-cyan-500 shadow-[0_0_8px_rgba(6,182,212,0.8)]"></div> {t.inflatables.lounge.f2}</li>
-                <li className="flex items-center gap-3"><div className="w-2 h-2 rounded-full bg-cyan-500 shadow-[0_0_8px_rgba(6,182,212,0.8)]"></div> {t.inflatables.lounge.f3}</li>
-              </ul>
-            </div>
-          </div>
 
             {/* Product 2: Slider */}
             <div className="w-[75vw] md:w-auto min-w-[280px] md:min-w-0 snap-center shrink-0 group bg-slate-900/50 border border-white/5 rounded-[2rem] overflow-hidden hover:border-orange-500/30 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:shadow-orange-500/10 flex flex-col">
-            <div className="aspect-square md:aspect-[4/3] overflow-hidden relative bg-slate-800 flex items-center justify-center">
-              <img 
-                src="https://i.ibb.co/ZpFv0fK6/image00002-1.jpg" 
-                alt="Slider" 
-                className="w-full h-full object-cover absolute inset-0 group-hover:scale-105 transition-transform duration-700" 
-                referrerPolicy="no-referrer"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-50"></div>
-              <div className="absolute top-6 right-6 bg-slate-950/80 backdrop-blur-md px-4 py-1.5 rounded-full text-xs font-bold text-orange-400 border border-orange-500/20 tracking-wider">
-                {t.inflatables.slider.badge}
+              <div className="aspect-square md:aspect-[4/3] overflow-hidden relative bg-slate-800 flex items-center justify-center">
+                <img
+                  src="https://i.ibb.co/ZpFv0fK6/image00002-1.jpg"
+                  alt="Slider"
+                  className="w-full h-full object-cover absolute inset-0 group-hover:scale-105 transition-transform duration-700"
+                  referrerPolicy="no-referrer"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-50"></div>
+                <div className="absolute top-6 right-6 bg-slate-950/80 backdrop-blur-md px-4 py-1.5 rounded-full text-xs font-bold text-orange-400 border border-orange-500/20 tracking-wider">
+                  {t.inflatables.slider.badge}
+                </div>
+              </div>
+              <div className="p-6 md:p-8 flex-grow flex flex-col">
+                <h3 className="text-xl md:text-2xl font-bold mb-2 md:mb-3">{t.inflatables.slider.name}</h3>
+                <p className="text-slate-400 text-sm leading-relaxed mb-6 md:mb-8 flex-grow">
+                  {t.inflatables.slider.desc}
+                </p>
+                <ul className="space-y-2 md:space-y-3 text-xs md:text-sm text-slate-300 font-medium bg-slate-950/50 p-4 md:p-5 rounded-2xl border border-white/5">
+                  <li className="flex items-center gap-3"><div className="w-2 h-2 rounded-full bg-orange-500 shadow-[0_0_8px_rgba(249,115,22,0.8)]"></div> {t.inflatables.slider.f1}</li>
+                  <li className="flex items-center gap-3"><div className="w-2 h-2 rounded-full bg-orange-500 shadow-[0_0_8px_rgba(249,115,22,0.8)]"></div> {t.inflatables.slider.f2}</li>
+                  <li className="flex items-center gap-3"><div className="w-2 h-2 rounded-full bg-orange-500 shadow-[0_0_8px_rgba(249,115,22,0.8)]"></div> {t.inflatables.slider.f3}</li>
+                </ul>
               </div>
             </div>
-            <div className="p-6 md:p-8 flex-grow flex flex-col">
-              <h3 className="text-xl md:text-2xl font-bold mb-2 md:mb-3">{t.inflatables.slider.name}</h3>
-              <p className="text-slate-400 text-sm leading-relaxed mb-6 md:mb-8 flex-grow">
-                {t.inflatables.slider.desc}
-              </p>
-              <ul className="space-y-2 md:space-y-3 text-xs md:text-sm text-slate-300 font-medium bg-slate-950/50 p-4 md:p-5 rounded-2xl border border-white/5">
-                <li className="flex items-center gap-3"><div className="w-2 h-2 rounded-full bg-orange-500 shadow-[0_0_8px_rgba(249,115,22,0.8)]"></div> {t.inflatables.slider.f1}</li>
-                <li className="flex items-center gap-3"><div className="w-2 h-2 rounded-full bg-orange-500 shadow-[0_0_8px_rgba(249,115,22,0.8)]"></div> {t.inflatables.slider.f2}</li>
-                <li className="flex items-center gap-3"><div className="w-2 h-2 rounded-full bg-orange-500 shadow-[0_0_8px_rgba(249,115,22,0.8)]"></div> {t.inflatables.slider.f3}</li>
-              </ul>
-            </div>
-          </div>
 
             {/* Product 3: Aqua Twister */}
             <div className="w-[75vw] md:w-auto min-w-[280px] md:min-w-0 snap-center shrink-0 group bg-slate-900/50 border border-white/5 rounded-[2rem] overflow-hidden hover:border-yellow-500/30 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:shadow-yellow-500/10 flex flex-col">
-            <div className="aspect-square md:aspect-[4/3] overflow-hidden relative bg-slate-800 flex items-center justify-center">
-              <img 
-                src="https://i.ibb.co/1f5S462Y/image00001-4.jpg" 
-                alt="Aqua Twister" 
-                className="w-full h-full object-cover absolute inset-0 group-hover:scale-105 transition-transform duration-700" 
-                referrerPolicy="no-referrer"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-50"></div>
-              <div className="absolute top-6 right-6 bg-slate-950/80 backdrop-blur-md px-4 py-1.5 rounded-full text-xs font-bold text-yellow-400 border border-yellow-500/20 tracking-wider">
-                {t.inflatables.aqua.badge}
+              <div className="aspect-square md:aspect-[4/3] overflow-hidden relative bg-slate-800 flex items-center justify-center">
+                <img
+                  src="https://i.ibb.co/1f5S462Y/image00001-4.jpg"
+                  alt="Aqua Twister"
+                  className="w-full h-full object-cover absolute inset-0 group-hover:scale-105 transition-transform duration-700"
+                  referrerPolicy="no-referrer"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-50"></div>
+                <div className="absolute top-6 right-6 bg-slate-950/80 backdrop-blur-md px-4 py-1.5 rounded-full text-xs font-bold text-yellow-400 border border-yellow-500/20 tracking-wider">
+                  {t.inflatables.aqua.badge}
+                </div>
+              </div>
+              <div className="p-6 md:p-8 flex-grow flex flex-col">
+                <h3 className="text-xl md:text-2xl font-bold mb-2 md:mb-3">{t.inflatables.aqua.name}</h3>
+                <p className="text-slate-400 text-sm leading-relaxed mb-6 md:mb-8 flex-grow">
+                  {t.inflatables.aqua.desc}
+                </p>
+                <ul className="space-y-2 md:space-y-3 text-xs md:text-sm text-slate-300 font-medium bg-slate-950/50 p-4 md:p-5 rounded-2xl border border-white/5">
+                  <li className="flex items-center gap-3"><div className="w-2 h-2 rounded-full bg-yellow-500 shadow-[0_0_8px_rgba(234,179,8,0.8)]"></div> {t.inflatables.aqua.f1}</li>
+                  <li className="flex items-center gap-3"><div className="w-2 h-2 rounded-full bg-yellow-500 shadow-[0_0_8px_rgba(234,179,8,0.8)]"></div> {t.inflatables.aqua.f2}</li>
+                  <li className="flex items-center gap-3"><div className="w-2 h-2 rounded-full bg-yellow-500 shadow-[0_0_8px_rgba(234,179,8,0.8)]"></div> {t.inflatables.aqua.f3}</li>
+                </ul>
               </div>
             </div>
-            <div className="p-6 md:p-8 flex-grow flex flex-col">
-              <h3 className="text-xl md:text-2xl font-bold mb-2 md:mb-3">{t.inflatables.aqua.name}</h3>
-              <p className="text-slate-400 text-sm leading-relaxed mb-6 md:mb-8 flex-grow">
-                {t.inflatables.aqua.desc}
-              </p>
-              <ul className="space-y-2 md:space-y-3 text-xs md:text-sm text-slate-300 font-medium bg-slate-950/50 p-4 md:p-5 rounded-2xl border border-white/5">
-                <li className="flex items-center gap-3"><div className="w-2 h-2 rounded-full bg-yellow-500 shadow-[0_0_8px_rgba(234,179,8,0.8)]"></div> {t.inflatables.aqua.f1}</li>
-                <li className="flex items-center gap-3"><div className="w-2 h-2 rounded-full bg-yellow-500 shadow-[0_0_8px_rgba(234,179,8,0.8)]"></div> {t.inflatables.aqua.f2}</li>
-                <li className="flex items-center gap-3"><div className="w-2 h-2 rounded-full bg-yellow-500 shadow-[0_0_8px_rgba(234,179,8,0.8)]"></div> {t.inflatables.aqua.f3}</li>
-              </ul>
-            </div>
           </div>
+
+          {/* Mobile Arrows */}
+          <button
+            onClick={() => scroll(inflatablesScrollRef, 'left')}
+            className="absolute -left-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-slate-800/90 border border-white/10 flex items-center justify-center text-white hover:bg-slate-700 transition-colors z-10 md:hidden shadow-lg backdrop-blur-sm"
+          >
+            <ChevronLeft className="w-5 h-5" />
+          </button>
+          <button
+            onClick={() => scroll(inflatablesScrollRef, 'right')}
+            className="absolute -right-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-slate-800/90 border border-white/10 flex items-center justify-center text-white hover:bg-slate-700 transition-colors z-10 md:hidden shadow-lg backdrop-blur-sm"
+          >
+            <ChevronRight className="w-5 h-5" />
+          </button>
         </div>
-        
-        {/* Mobile Arrows */}
-        <button 
-          onClick={() => scroll(inflatablesScrollRef, 'left')}
-          className="absolute -left-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-slate-800/90 border border-white/10 flex items-center justify-center text-white hover:bg-slate-700 transition-colors z-10 md:hidden shadow-lg backdrop-blur-sm"
-        >
-          <ChevronLeft className="w-5 h-5" />
-        </button>
-        <button 
-          onClick={() => scroll(inflatablesScrollRef, 'right')}
-          className="absolute -right-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-slate-800/90 border border-white/10 flex items-center justify-center text-white hover:bg-slate-700 transition-colors z-10 md:hidden shadow-lg backdrop-blur-sm"
-        >
-          <ChevronRight className="w-5 h-5" />
-        </button>
-      </div>
       </section>
 
       {/* Location & Safety */}
       <section id="location" className="py-16 md:py-24 bg-slate-900/30 border-y border-white/5 relative overflow-hidden">
         {/* Background glow */}
         <div className="absolute top-1/2 left-0 -translate-y-1/2 w-[500px] h-[500px] bg-cyan-500/10 rounded-full blur-[120px] pointer-events-none"></div>
-        
+
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16 items-center">
             <div>
-              <h2 className="text-3xl md:text-5xl font-bold mb-4 md:mb-6 tracking-tight">{t.location.title1} <br/><span className="text-cyan-400">{t.location.title2}</span></h2>
+              <h2 className="text-3xl md:text-5xl font-bold mb-4 md:mb-6 tracking-tight">{t.location.title1} <br /><span className="text-cyan-400">{t.location.title2}</span></h2>
               <p className="text-slate-400 text-base md:text-lg mb-8 md:mb-12 leading-relaxed">
                 {t.location.desc}
               </p>
-              
+
               <div className="space-y-6 md:space-y-8">
                 <div className="flex gap-4 md:gap-6">
                   <div className="w-12 h-12 md:w-14 md:h-14 rounded-xl md:rounded-2xl bg-cyan-500/10 flex items-center justify-center shrink-0 border border-cyan-500/20 shadow-[0_0_15px_rgba(6,182,212,0.15)]">
@@ -831,7 +871,7 @@ export default function App() {
                     <p className="text-slate-400 text-xs md:text-sm leading-relaxed">{t.location.bayDesc}</p>
                   </div>
                 </div>
-                
+
                 <div className="flex gap-4 md:gap-6">
                   <div className="w-12 h-12 md:w-14 md:h-14 rounded-xl md:rounded-2xl bg-cyan-500/10 flex items-center justify-center shrink-0 border border-cyan-500/20 shadow-[0_0_15px_rgba(6,182,212,0.15)]">
                     <ShieldCheck className="w-6 h-6 md:w-7 md:h-7 text-cyan-400" />
@@ -843,12 +883,12 @@ export default function App() {
                 </div>
               </div>
             </div>
-            
+
             <div className="relative">
               <div className="aspect-[4/5] rounded-[2.5rem] overflow-hidden relative group">
-                <img 
-                  src="https://i.ibb.co/dsFLjyrC/BIG-7-1651666663328.jpg" 
-                  alt="Duni Bay" 
+                <img
+                  src="https://i.ibb.co/dsFLjyrC/BIG-7-1651666663328.jpg"
+                  alt="Duni Bay"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   referrerPolicy="no-referrer"
                 />
@@ -929,100 +969,100 @@ export default function App() {
         </div>
 
         <div className="relative group max-w-5xl mx-auto">
-          <div 
+          <div
             ref={pricingScrollRef}
-            className="flex md:grid md:grid-cols-3 gap-6 overflow-x-auto snap-x snap-mandatory scroll-smooth pt-6 pb-4 md:pt-4 md:pb-0 px-4 md:px-0 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden"
+            className="flex md:grid md:grid-cols-3 gap-6 overflow-x-auto snap-x snap-mandatory scroll-smooth pt-6 pb-4 md:pt-12 md:pb-0 px-4 md:px-0 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden"
           >
             {/* 10 Min */}
             <div className="w-[75vw] md:w-auto min-w-[280px] md:min-w-0 snap-center shrink-0 bg-slate-900/50 border border-white/5 rounded-[2rem] p-8 hover:border-cyan-500/30 transition-all duration-300 flex flex-col hover:-translate-y-1">
-            <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center border border-white/5">
-                <Clock className="w-6 h-6 text-cyan-400" />
+              <div className="flex items-center gap-3 mb-6">
+                <div className="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center border border-white/5">
+                  <Clock className="w-6 h-6 text-cyan-400" />
+                </div>
+                <h3 className="text-2xl font-bold">{t.pricing.min10}</h3>
               </div>
-              <h3 className="text-2xl font-bold">{t.pricing.min10}</h3>
+              <p className="text-slate-400 text-sm mb-8 flex-grow leading-relaxed">
+                {t.pricing.desc10}
+              </p>
+              <div className="mb-8 flex flex-col gap-3">
+                <div className="flex justify-between items-center border-b border-white/5 pb-3">
+                  <span className="text-sm font-medium text-slate-400 uppercase tracking-wider">{t.pricing.jet}</span>
+                  <span className="text-2xl font-bold text-white">40 €</span>
+                </div>
+                <div className="flex justify-between items-center pt-1">
+                  <span className="text-sm font-medium text-slate-400 uppercase tracking-wider">{t.pricing.jetcar}</span>
+                  <span className="text-2xl font-bold text-yellow-500">65 €</span>
+                </div>
+              </div>
+              <a href="#contact" className="w-full py-4 rounded-xl bg-white/5 hover:bg-white/10 text-white font-bold text-center transition-colors border border-white/10">
+                {t.pricing.book}
+              </a>
             </div>
-            <p className="text-slate-400 text-sm mb-8 flex-grow leading-relaxed">
-              {t.pricing.desc10}
-            </p>
-            <div className="mb-8 flex flex-col gap-3">
-              <div className="flex justify-between items-center border-b border-white/5 pb-3">
-                <span className="text-sm font-medium text-slate-400 uppercase tracking-wider">{t.pricing.jet}</span>
-                <span className="text-2xl font-bold text-white">40 €</span>
+
+            {/* 15 Min */}
+            <div className="w-[75vw] md:w-auto min-w-[280px] md:min-w-0 snap-center shrink-0 bg-gradient-to-b from-cyan-900/30 to-slate-900/80 border border-cyan-500/40 rounded-[2rem] p-8 relative transform md:-translate-y-4 shadow-2xl shadow-cyan-900/20 flex flex-col">
+              <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-cyan-500 text-slate-950 text-xs font-bold px-5 py-2 rounded-full uppercase tracking-widest shadow-lg shadow-cyan-500/30">
+                {t.pricing.popular}
               </div>
-              <div className="flex justify-between items-center pt-1">
-                <span className="text-sm font-medium text-slate-400 uppercase tracking-wider">{t.pricing.jetcar}</span>
-                <span className="text-2xl font-bold text-yellow-500">65 €</span>
+              <div className="flex items-center gap-3 mb-6 mt-2">
+                <div className="w-12 h-12 rounded-full bg-cyan-500/10 flex items-center justify-center border border-cyan-500/20">
+                  <Clock className="w-6 h-6 text-cyan-400" />
+                </div>
+                <h3 className="text-2xl font-bold">{t.pricing.min15}</h3>
               </div>
+              <p className="text-slate-300 text-sm mb-8 flex-grow leading-relaxed">
+                {t.pricing.desc15}
+              </p>
+              <div className="mb-8 flex flex-col gap-3">
+                <div className="flex justify-between items-center border-b border-cyan-500/20 pb-3">
+                  <span className="text-sm font-medium text-cyan-100/70 uppercase tracking-wider">{t.pricing.jet}</span>
+                  <span className="text-2xl font-bold text-white">60 €</span>
+                </div>
+                <div className="flex justify-between items-center pt-1">
+                  <span className="text-sm font-medium text-cyan-100/70 uppercase tracking-wider">{t.pricing.jetcar}</span>
+                  <span className="text-2xl font-bold text-yellow-400">85 €</span>
+                </div>
+              </div>
+              <a href="#contact" className="w-full py-4 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold text-center transition-colors shadow-lg shadow-cyan-500/25">
+                {t.pricing.book}
+              </a>
             </div>
-            <a href="#contact" className="w-full py-4 rounded-xl bg-white/5 hover:bg-white/10 text-white font-bold text-center transition-colors border border-white/10">
-              {t.pricing.book}
-            </a>
+
+            {/* 30 Min */}
+            <div className="w-[75vw] md:w-auto min-w-[280px] md:min-w-0 snap-center shrink-0 bg-slate-900/50 border border-white/5 rounded-[2rem] p-8 hover:border-cyan-500/30 transition-all duration-300 flex flex-col hover:-translate-y-1">
+              <div className="flex items-center gap-3 mb-6">
+                <div className="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center border border-white/5">
+                  <Clock className="w-6 h-6 text-cyan-400" />
+                </div>
+                <h3 className="text-2xl font-bold">{t.pricing.min30}</h3>
+              </div>
+              <p className="text-slate-400 text-sm mb-8 flex-grow leading-relaxed">
+                {t.pricing.desc30}
+              </p>
+              <div className="mb-8 flex flex-col gap-3">
+                <div className="flex justify-between items-center border-b border-white/5 pb-3">
+                  <span className="text-sm font-medium text-slate-400 uppercase tracking-wider">{t.pricing.jet}</span>
+                  <span className="text-2xl font-bold text-white">100 €</span>
+                </div>
+                <div className="flex justify-between items-center pt-1">
+                  <span className="text-sm font-medium text-slate-400 uppercase tracking-wider">{t.pricing.jetcar}</span>
+                  <span className="text-2xl font-bold text-yellow-500">150 €</span>
+                </div>
+              </div>
+              <a href="#contact" className="w-full py-4 rounded-xl bg-white/5 hover:bg-white/10 text-white font-bold text-center transition-colors border border-white/10">
+                {t.pricing.book}
+              </a>
+            </div>
           </div>
 
-          {/* 15 Min */}
-          <div className="w-[75vw] md:w-auto min-w-[280px] md:min-w-0 snap-center shrink-0 bg-gradient-to-b from-cyan-900/30 to-slate-900/80 border border-cyan-500/40 rounded-[2rem] p-8 relative transform md:-translate-y-4 shadow-2xl shadow-cyan-900/20 flex flex-col">
-            <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-cyan-500 text-slate-950 text-xs font-bold px-5 py-2 rounded-full uppercase tracking-widest shadow-lg shadow-cyan-500/30">
-              {t.pricing.popular}
-            </div>
-            <div className="flex items-center gap-3 mb-6 mt-2">
-              <div className="w-12 h-12 rounded-full bg-cyan-500/10 flex items-center justify-center border border-cyan-500/20">
-                <Clock className="w-6 h-6 text-cyan-400" />
-              </div>
-              <h3 className="text-2xl font-bold">{t.pricing.min15}</h3>
-            </div>
-            <p className="text-slate-300 text-sm mb-8 flex-grow leading-relaxed">
-              {t.pricing.desc15}
-            </p>
-            <div className="mb-8 flex flex-col gap-3">
-              <div className="flex justify-between items-center border-b border-cyan-500/20 pb-3">
-                <span className="text-sm font-medium text-cyan-100/70 uppercase tracking-wider">{t.pricing.jet}</span>
-                <span className="text-2xl font-bold text-white">60 €</span>
-              </div>
-              <div className="flex justify-between items-center pt-1">
-                <span className="text-sm font-medium text-cyan-100/70 uppercase tracking-wider">{t.pricing.jetcar}</span>
-                <span className="text-2xl font-bold text-yellow-400">85 €</span>
-              </div>
-            </div>
-            <a href="#contact" className="w-full py-4 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold text-center transition-colors shadow-lg shadow-cyan-500/25">
-              {t.pricing.book}
-            </a>
-          </div>
-
-          {/* 30 Min */}
-          <div className="w-[75vw] md:w-auto min-w-[280px] md:min-w-0 snap-center shrink-0 bg-slate-900/50 border border-white/5 rounded-[2rem] p-8 hover:border-cyan-500/30 transition-all duration-300 flex flex-col hover:-translate-y-1">
-            <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center border border-white/5">
-                <Clock className="w-6 h-6 text-cyan-400" />
-              </div>
-              <h3 className="text-2xl font-bold">{t.pricing.min30}</h3>
-            </div>
-            <p className="text-slate-400 text-sm mb-8 flex-grow leading-relaxed">
-              {t.pricing.desc30}
-            </p>
-            <div className="mb-8 flex flex-col gap-3">
-              <div className="flex justify-between items-center border-b border-white/5 pb-3">
-                <span className="text-sm font-medium text-slate-400 uppercase tracking-wider">{t.pricing.jet}</span>
-                <span className="text-2xl font-bold text-white">100 €</span>
-              </div>
-              <div className="flex justify-between items-center pt-1">
-                <span className="text-sm font-medium text-slate-400 uppercase tracking-wider">{t.pricing.jetcar}</span>
-                <span className="text-2xl font-bold text-yellow-500">150 €</span>
-              </div>
-            </div>
-            <a href="#contact" className="w-full py-4 rounded-xl bg-white/5 hover:bg-white/10 text-white font-bold text-center transition-colors border border-white/10">
-              {t.pricing.book}
-            </a>
-          </div>
-          </div>
-          
           {/* Mobile Arrows */}
-          <button 
+          <button
             onClick={() => scroll(pricingScrollRef, 'left')}
             className="absolute -left-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-slate-800/90 border border-white/10 flex items-center justify-center text-white hover:bg-slate-700 transition-colors z-10 md:hidden shadow-lg backdrop-blur-sm"
           >
             <ChevronLeft className="w-5 h-5" />
           </button>
-          <button 
+          <button
             onClick={() => scroll(pricingScrollRef, 'right')}
             className="absolute -right-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-slate-800/90 border border-white/10 flex items-center justify-center text-white hover:bg-slate-700 transition-colors z-10 md:hidden shadow-lg backdrop-blur-sm"
           >
@@ -1032,10 +1072,7 @@ export default function App() {
 
         {/* Group Fun Pricing */}
         <div className="mt-6 max-w-5xl mx-auto bg-slate-900/50 border border-white/5 rounded-[2rem] p-8 flex flex-col md:flex-row items-center justify-between gap-8 hover:border-cyan-500/30 transition-all duration-300">
-          <div className="flex flex-col md:flex-row items-center md:items-start text-center md:text-left gap-6">
-            <div className="w-16 h-16 rounded-full bg-slate-800 flex items-center justify-center border border-white/5 shrink-0">
-              <Waves className="w-8 h-8 text-cyan-400" />
-            </div>
+          <div className="flex flex-col md:flex-row items-center md:items-start text-center md:text-left gap-4">
             <div>
               <h3 className="text-2xl font-bold mb-2">{t.pricing.groupFun}</h3>
               <p className="text-slate-400 text-sm leading-relaxed max-w-md">
@@ -1054,27 +1091,39 @@ export default function App() {
       <section id="contact" className="bg-slate-950 border-t border-white/10 pt-24 pb-12 relative overflow-hidden">
         {/* Background elements */}
         <div className="absolute bottom-0 right-0 w-[600px] h-[600px] bg-cyan-500/5 rounded-full blur-[150px] pointer-events-none"></div>
-        
+
         <div className="max-w-4xl mx-auto px-6 text-center relative z-10">
           <h2 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight">{t.contact.title1} <span className="text-cyan-400">{t.contact.title2}</span></h2>
           <p className="text-slate-400 text-lg mb-12 max-w-2xl mx-auto">
             {t.contact.desc}
           </p>
-          
+
           <div className="flex flex-col sm:flex-row justify-center gap-6 mb-20">
             <a href="tel:+359898506877" className="px-8 py-4 bg-slate-900 text-white font-bold rounded-full hover:bg-slate-800 transition-all flex items-center justify-center gap-3 border border-white/10 hover:-translate-y-1">
               <Phone className="w-6 h-6" /> +359 89 8506877
             </a>
           </div>
-          
+
           <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-6 text-sm text-slate-500">
             <div className="flex items-center gap-2">
-              <Waves className="w-6 h-6 text-cyan-500" />
+              <div
+                className="w-8 h-8 bg-cyan-500"
+                style={{
+                  maskImage: 'url(/images/logo.png)',
+                  WebkitMaskImage: 'url(/images/logo.png)',
+                  maskSize: 'contain',
+                  WebkitMaskSize: 'contain',
+                  maskRepeat: 'no-repeat',
+                  WebkitMaskRepeat: 'no-repeat',
+                  maskPosition: 'center',
+                  WebkitMaskPosition: 'center'
+                }}
+              ></div>
               <span className="font-bold text-slate-300 uppercase tracking-widest text-lg">Aquatrax Sports</span>
             </div>
             <div className="flex gap-6">
-              <a href="#" className="hover:text-cyan-400 transition-colors">Facebook</a>
-              <a href="#" className="hover:text-cyan-400 transition-colors">Instagram</a>
+              <a href="https://www.facebook.com/aquatrax.sports/" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors">Facebook</a>
+              <a href="https://www.tiktok.com/@aquatraxwatersports" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors">TikTok</a>
             </div>
             <p>© {new Date().getFullYear()} Aquatrax Duni. {t.contact.rights}</p>
           </div>
