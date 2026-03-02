@@ -1102,6 +1102,9 @@ export default function App() {
             <a href="tel:+359898506877" className="px-8 py-4 bg-slate-900 text-white font-bold rounded-full hover:bg-slate-800 transition-all flex items-center justify-center gap-3 border border-white/10 hover:-translate-y-1">
               <Phone className="w-6 h-6" /> +359 89 8506877
             </a>
+            <a href="tel:+359898506862" className="px-8 py-4 bg-slate-900 text-white font-bold rounded-full hover:bg-slate-800 transition-all flex items-center justify-center gap-3 border border-white/10 hover:-translate-y-1">
+              <Phone className="w-6 h-6" /> +359 89 8506862
+            </a>
           </div>
 
           <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-6 text-sm text-slate-500">
